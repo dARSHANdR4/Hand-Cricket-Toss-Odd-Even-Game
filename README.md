@@ -1,38 +1,84 @@
-Hand Cricket Toss/Odd-Even Game 
-Hand Cricket Toss/Odd-Even Game is a command-line game implemented in C language. It simulates a cricket match where players take turns choosing odd or even numbers and try to score runs while avoiding getting out.
+<p align="center"><img src="https://raw.githubusercontent.com/dARSHANdR4/dARSHANdR4/main/assets/minecraft-emerald-divider.svg?v=4" width="100%" alt="Animated emerald pixel divider"></p>
 
-Features:
-Simulates a coin toss to determine batting order.
-Players can choose between odd or even numbers.
-Randomly generates numbers between 1 and 6 to simulate ball delivery.
-Tracks runs scored and wickets lost for each player.
-Supports multiple overs for extended gameplay.
+<div align="center">
 
-How to Play:
-Clone the repository to your local machine:
-git clone https://github.com/your_username/Hand-Cricket-Toss-Odd-Even-Game.git
+# 🏏 Hand Cricket · Odd / Even Toss
 
-Navigate to the project directory:
+**A small command-line C prototype inspired by hand cricket.**
+
+[![Language](https://img.shields.io/badge/C-245b32?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c)
+[![License](https://img.shields.io/badge/License-MIT-245b32?style=for-the-badge)](LICENSE)
+[**Developer profile ↗**](https://github.com/dARSHANdR4)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/dARSHANdR4/dARSHANdR4/main/assets/minecraft-emerald-divider.svg?v=4" width="100%" alt="Animated emerald pixel divider"></p>
+
+## 🎮 Current project status
+
+This repository currently contains a **toss prototype**. The C program chooses the computer's Odd/Even preference, asks the player for a toss number, generates a computer number, and prints the toss result / who is indicated to bat first.
+
+**Important:** The checked-in source does not yet implement a complete innings, run tracking, wickets, or multi-over match. Those are good next features, but are not currently in the code.
+
+> **Hosted demo:** This is a command-line C project; no browser-hosted version is published.
+
+## 🧰 Requirements
+
+- GCC or another C compiler
+- Terminal / command prompt
+
+## ⛏️ Build and run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dARSHANdR4/Hand-Cricket-Toss-Odd-Even-Game.git
 cd Hand-Cricket-Toss-Odd-Even-Game
+```
 
-Compile the game using a C compiler (e.g., gcc):
+Compile with GCC:
+
+```bash
 gcc odd_even_toss_game.c -o odd_even_toss_game
+```
 
-Run the compiled executable:
+Run on macOS / Linux:
+
+```bash
 ./odd_even_toss_game
+```
 
-Follow the on-screen instructions to play the game.
+Run on Windows:
 
-Requirements:
-C Compiler (e.g., gcc)
-Contributions:
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+```powershell
+.\odd_even_toss_game.exe
+```
 
-License:
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧭 How the current toss works
 
+1. The computer randomly chooses Odd or Even as its preference.
+2. Enter a number when prompted.
+3. The program generates the computer's number and evaluates the sum's parity.
+4. The terminal prints the toss outcome and a batting-first message.
 
+This is an early prototype: validate inputs carefully and do not rely on it as a full match simulator.
 
+## 🗺️ Next quests
 
+- Replace non-standard `void main()` with standard `int main(void)`.
+- Validate the player's toss input and explain the allowed range.
+- Implement batting / bowling turns and run totals.
+- Add wickets, target chasing, innings switching, and overs.
+- Add sample terminal output and automated tests.
 
+## 🤝 Contributing
 
+Open an issue or pull request with a focused improvement.
+
+<p align="center"><img src="https://raw.githubusercontent.com/dARSHANdR4/dARSHANdR4/main/assets/minecraft-emerald-divider.svg?v=4" width="100%" alt="Animated emerald pixel divider"></p>
+
+<div align="center">
+
+**Built by [dARSHANdR4](https://github.com/dARSHANdR4) · Voxel Builder / Developer / Automation**
+
+</div>
