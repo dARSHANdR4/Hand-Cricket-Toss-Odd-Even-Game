@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+<title id="title">Voxel Hand Cricket prototype</title><desc id="desc">A pixel-art cricket ground with wickets, bat, red ball, blocky grass, and an emerald-green game overlay.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1720"/><stop offset="1" stop-color="#1e4736"/></linearGradient><linearGradient id="bat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe3a0"/><stop offset="1" stop-color="#a86a35"/></linearGradient></defs>
+<rect width="1200" height="300" fill="url(#sky)"/>
+<g fill="#e9ffd7"><rect x="100" y="47" width="4" height="4"/><rect x="230" y="83" width="3" height="3"/><rect x="984" y="48" width="4" height="4"/><rect x="1110" y="86" width="3" height="3"/></g>
+<path d="M0 206V167H80V133H123V167H188V149H243V182H296V163H350V201Z" fill="#244a3a"/><path d="M850 204V160H907V127H953V168H1015V141H1071V176H1133V153H1200V204Z" fill="#244a3a"/>
+<rect y="204" width="1200" height="44" fill="#3e8e48"/><rect y="204" width="1200" height="8" fill="#91e765"/><rect y="248" width="1200" height="52" fill="#64452e"/>
+<g fill="#36763c"><rect x="60" y="222" width="38" height="10"/><rect x="176" y="233" width="38" height="10"/><rect x="330" y="217" width="38" height="10"/><rect x="840" y="230" width="38" height="10"/><rect x="1012" y="220" width="38" height="10"/></g>
+<!-- pitch -->
+<rect x="443" y="150" width="314" height="57" fill="#b8a176"/><rect x="443" y="150" width="314" height="5" fill="#dfd0a2"/><path d="M462 158V199M738 158V199" stroke="#f6f0d9" stroke-width="3" stroke-dasharray="7 6"/>
+<!-- wickets -->
+<g fill="#fff0c5"><rect x="470" y="127" width="8" height="28"/><rect x="483" y="127" width="8" height="28"/><rect x="496" y="127" width="8" height="28"/><rect x="467" y="123" width="28" height="5"/></g>
+<g fill="#fff0c5"><rect x="697" y="127" width="8" height="28"/><rect x="710" y="127" width="8" height="28"/><rect x="723" y="127" width="8" height="28"/><rect x="694" y="123" width="28" height="5"/></g>
+<!-- bat -->
+<g transform="translate(295 108) rotate(-24)"><path d="M0 0H27V90L13 111L0 90Z" fill="url(#bat)" stroke="#fce7a8" stroke-width="3"/><rect x="2" y="-30" width="23" height="34" fill="#3a2924"/><rect x="2" y="-30" width="23" height="7" fill="#6c5043"/></g>
+<!-- red ball and trail -->
+<circle cx="853" cy="125" r="18" fill="#b83445" stroke="#ff9a9b" stroke-width="3"/><path d="M843 111Q865 125 846 140M852 109Q872 125 855 141" fill="none" stroke="#ffdad4" stroke-width="2"/>
+<g fill="#0c261a" stroke="#75e88b" stroke-width="2"><rect x="898" y="151" width="32" height="32"/><rect x="930" y="119" width="22" height="22"/><rect x="870" y="183" width="16" height="16"/></g>
+<rect x="320" y="67" width="560" height="105" rx="3" fill="#07140f" fill-opacity=".91" stroke="#76e990" stroke-width="2"/>
+<path d="M320 89V67H345M855 67H880V89M320 150V172H345M855 172H880V150" fill="none" stroke="#b6ff86" stroke-width="4"/>
+<g font-family="monospace" text-anchor="middle"><text x="600" y="97" font-size="13" fill="#7bed9a" letter-spacing="4">ODD / EVEN • C GAME PROTOTYPE</text><text x="600" y="133" font-size="34" font-weight="900" fill="#f0ffe9">HAND CRICKET</text><text x="600" y="154" font-size="12" fill="#c5dcc9" letter-spacing="2">TOSS • CHOOSE • PLAY</text></g>
+<rect width="1200" height="5" fill="#83f37e"/><rect y="295" width="1200" height="5" fill="#83f37e"/>
+</svg>
