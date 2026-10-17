@@ -1,6 +1,7 @@
-<p align="center"><img src="https://raw.githubusercontent.com/dARSHANdR4/dARSHANdR4/main/assets/minecraft-emerald-divider.svg?v=4" width="100%" alt="Animated emerald pixel divider"></p>
-
 <div align="center">
+
+<img src="assets/voxel-cricket-banner.svg" alt="Voxel Hand Cricket project banner" width="100%">
+
 
 # 🏏 Hand Cricket · Odd / Even Toss
 
