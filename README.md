@@ -8,7 +8,6 @@
 **A small command-line C prototype inspired by hand cricket.**
 
 [![Language](https://img.shields.io/badge/C-245b32?style=for-the-badge&logo=c&logoColor=white)](https://en.cppreference.com/w/c)
-[![License](https://img.shields.io/badge/License-MIT-245b32?style=for-the-badge)](LICENSE)
 [**Developer profile ↗**](https://github.com/dARSHANdR4)
 
 </div>
